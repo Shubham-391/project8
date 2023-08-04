@@ -1,0 +1,135 @@
+@import url(/assets/css/root.css);
+@import url(/assets/css/media.css);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    min-width: 100vh;
+}
+
+/* header */
+.startup {
+    color: var(--blue);
+    font-family: DM Sans;
+    font-size: var(--l);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.293px;
+    min-width: 106px;
+}
+
+
+
+.button1 {
+    color: var(--white);
+    /* text-align: center; */
+    font-family: DM Sans;
+    font-size: var(--s);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    background: var(--bg-cyan);
+    border: none;
+    cursor: pointer;
+}
+
+header {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+
+/* main */
+.mt-77 {
+    margin-top: 77px;
+}
+
+.high {
+    color: var(--blue);
+    font-family: DM Sans;
+    font-size: var(--xl);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    /* max-width: 600px; */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 470px;
+    height: 60px;
+    border-radius: 100px;
+    border: 2px solid var(--grey2);
+}
+
+input[placeholder] {
+    color: var(--grey);
+    font-family: DM Sans;
+    font-size: var(--m);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 18px 24px 16px 24px;
+}
+
+.button2 {
+    color: var(--white);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: var(--m);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    width: 470px;
+    height: 60px;
+    border-radius: 100px;
+    background: var(--bg-cyan);
+    cursor: pointer;
+    border: none;
+}
+
+fieldset {
+    flex-direction: column;
+    width: 470px;
+    border: none;
+}
+
+input[type="password"] {
+    margin: 30px 0;
+}
+
+.terms {
+    color: var(--grey);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: var(--vs);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 17px;
+}
+
+.border-r {
+    border-radius: 10px;
+}
+

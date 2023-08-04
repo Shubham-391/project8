@@ -1,0 +1,16 @@
+:root {
+    /* color*/
+    --blue: #1E0E62;
+    --grey: rgba(21, 20, 57, 0.4);
+    --grey2: #EBEAED;
+    --white: white;
+    /* font size */
+    --vs: 16px;
+    --s: 18px;
+    --m: 20px;
+    --l: 24px;
+    --xl: 42px;
+    /* bg-color */
+    --bg-cyan: rgba(37, 218, 197, 1);
+    --bg-skyblue: skyblue;
+}
